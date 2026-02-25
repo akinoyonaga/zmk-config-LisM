@@ -11,178 +11,318 @@ layers:
   - I
   - O
   - P
-  - A
-  - {t: S, h: LALT}
-  - {t: D, h: LSHIFT}
-  - {t: F, h: LGUI}
-  - {t: G, h: LCTRL}
-  - {t: H, h: RCTRL}
-  - {t: J, h: RGUI}
-  - {t: K, h: RSHIFT}
-  - {t: L, h: RALT}
-  - {t: ;, h: Mark Layer}
+  - {t: A, h: LEFT ALT}
+  - S
+  - {t: D, h: LEFT SHIFT}
+  - F
+  - G
+  - H
+  - J
+  - {t: K, h: RIGHT SHIFT}
+  - L
+  - {t: '-', h: RIGHT ALT}
   - Z
   - X
-  - C
+  - {t: C, h: LEFT CONTROL}
   - V
   - B
   - N
   - M
-  - ','
+  - {t: ',', h: RIGHT CONTROL}
   - .
   - /
-  - {t: DEL, h: Device Layer}
-  - {t: Mouse Layer, h: toggle}
-  - {t: TAB, h: Mouse Layer}
-  - Sft+Gui+4
-  - {t: SPACE, h: Number Layer}
-  - {t: ESC, h: Mark Layer}
-  - {t: BS, h: Mark Layer}
-  - {t: ENTER, h: Number Layer}
-  - Sft+Gui+4
-  - F7
-  - F10
-  - {t: F12, h: Device Layer}
-  Mouse Layer:
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - SPACE
-  - Gui+←
-  - Gui+→
-  - '&mkp MB3'
-  - {t: ▽, type: trans}
-  - '&mkp MB5'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - Gui+↑
-  - '&mkp MB1'
-  - '&mkp MB2'
-  - '&msc SCRL_UP'
-  - '&msc SCRL_DOWN'
+  - {t: '&kp_exit_AML ESCAPE', h: LCTRL}
+  - LEFT WIN
+  - AT
+  - ''
+  - {t: TAB, h: '3'}
+  - {t: SPACE, h: '2'}
+  - BS
+  - {t: ENTER, h: '2'}
+  - ''
+  - ''
+  - {t: '''', h: '7'}
+  - {t: Ctl+SPACE, h: '6'}
+  mac:
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - {t: O, h: LEFT ALT}
+  - P
+  - {t: A, h: LEFT COMMAND}
+  - S
+  - {t: D, h: LEFT SHIFT}
+  - F
+  - G
+  - H
+  - J
+  - {t: K, h: RIGHT SHIFT}
+  - L
+  - {t: '-', h: RIGHT ALT}
+  - Z
+  - X
+  - {t: C, h: LEFT COMMAND}
+  - V
+  - B
+  - N
+  - M
+  - {t: ',', h: RIGHT COMMAND}
+  - .
+  - /
+  - {t: '&kp_exit_AML ESCAPE', h: LCTRL}
+  - LEFT WIN
+  - AT
+  - ''
+  - {t: TAB, h: '3'}
+  - {t: SPACE, h: '4'}
+  - BS
+  - {t: ENTER, h: '4'}
+  - ''
+  - ''
+  - {t: '''', h: '7'}
+  - {t: Ctl+SPACE, h: '6'}
+  '2':
+  - '!'
+  - DQT
+  - '`'
+  - F2
+  - F5
+  - Ctl+PAGE UP
   - '&mkp MB4'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - Gui+↓
+  - '&mkp MB3'
+  - '&mkp MB5'
+  - Ctl+PAGE DOWN
+  - (
+  - {t: '&kp_exit_AML RIGHT_PARENTHESIS', h: LEFT SHIFT}
+  - '['
+  - ']'
+  - '~'
+  - PAGE UP
+  - '&mkp LCLK'
+  - UP ARROW
+  - '&mkp RCLK'
+  - HOME
+  - INT YEN
+  - '|'
+  - {t: ;, h: LEFT CONTROL}
+  - ':'
+  - UNDERSCORE
+  - PAGE DOWN
   - ←
-  - ↑
+  - DOWN ARROW
   - →
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - ↓
-  - {t: ▽, type: trans}
-  - Gui+W
-  Number Layer:
-  - {t: ▽, type: trans}
+  - END
+  - {t: '&kp_exit_AML SINGLE_QUOTE', h: LEFT CONTROL}
+  - LEFT SHIFT
+  - LEFT CONTROL
+  - ''
+  - {t: Default Layer, h: toggle}
+  - {t: mac, type: held}
+  - DEL
+  - APP
+  - ''
+  - ''
+  - ''
+  - '6'
+  '3':
+  - ESCAPE
+  - '#'
+  - $
+  - '%'
+  - '&'
+  - /
   - '7'
   - '8'
   - '9'
-  - '='
-  - F1
-  - F2
+  - '-'
   - F7
+  - F8
+  - F9
   - F10
-  - RSHIFT
+  - AT
   - '*'
-  - {t: '4', h: LALT}
-  - {t: '5', h: LSHIFT}
-  - {t: '6', h: LGUI}
-  - {t: '-', h: LCTRL}
-  - '&mkp MB1'
-  - ←
-  - ↑
-  - →
-  - RGUI
-  - /
+  - '4'
+  - '5'
+  - '6'
+  - +
+  - Alt+F4
+  - ''
+  - Ctl+;
+  - 'Ctl+:'
+  - UNDERSCORE
+  - F4
   - '1'
   - '2'
   - '3'
-  - +
-  - '&mkp MB2'
+  - '='
+  - Ctl+F4
+  - LEFT SHIFT
+  - Sft+LEFT CONTROL
   - ''
-  - ↓
-  - ''
-  - RALT
-  - {t: ▽, type: trans}
-  - .
+  - {t: Default Layer, h: toggle, type: held}
+  - {t: '3', h: toggle}
+  - BS
   - '0'
-  - {t: ▽, type: trans}
-  - {t: LANG2, type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - LANG1
-  - {t: ▽, type: trans}
-  - Sft+Ctl+TAB
-  - Ctl+TAB
-  - F12
-  Mark Layer:
-  - Sft+Gui+4
-  - F4
-  - (
-  - )
   - ''
-  - '~'
+  - ''
+  - ''
+  - DEL
+  '4':
   - '!'
-  - '@'
-  - '#'
-  - $
-  - '&emoji'
+  - DQT
+  - '`'
+  - F2
   - F5
+  - Ctl+PAGE UP
+  - Gui+LEFT ARROW
+  - '&mkp MB3'
+  - Gui+AL FILE BROWSER
+  - Ctl+PAGE DOWN
+  - (
+  - {t: '&kp_exit_AML RIGHT_PARENTHESIS', h: LEFT SHIFT}
   - '['
   - ']'
-  - ''
-  - '`'
-  - _
-  - ''''
-  - '"'
-  - {t: \, type: held}
-  - KP NUMLOCK
-  - F11
-  - '{'
-  - '}'
-  - ''
+  - '~'
+  - PAGE UP
+  - '&mkp LCLK'
+  - UP ARROW
+  - '&mkp RCLK'
+  - HOME
+  - INT YEN
   - '|'
-  - '%'
-  - ^
-  - '&'
-  - '*'
+  - {t: ;, h: LEFT CONTROL}
+  - ':'
+  - UNDERSCORE
+  - PAGE DOWN
+  - ←
+  - DOWN ARROW
+  - →
+  - END
+  - {t: '&kp_exit_AML SINGLE_QUOTE', h: LEFT CONTROL}
+  - LEFT SHIFT
+  - LEFT CONTROL
+  - ''
+  - {t: Default Layer, h: toggle}
+  - {t: mac, type: held}
+  - DEL
+  - APP
+  - ''
+  - ''
+  - ''
+  - '6'
+  '5':
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '&mkp LCLK'
+  - ''
+  - '&mkp RCLK'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: Default Layer, h: toggle}
+  - '6'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  '6':
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '0'
-  - {t: ▽, type: trans}
-  - SPACE
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - ENTER
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ''
+  - {t: Default Layer, h: toggle}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - ''
   - ''
-  - F12
-  Device Layer:
+  - ''
+  - {type: held}
+  '7':
+  - '&bt0_win'
+  - '&bt1_win'
+  - '&bt2_mac'
+  - '&bt3_mac'
+  - '&bt4_win'
+  - '&bt0_win'
+  - '&bt1_win'
+  - '&bt2_mac'
+  - '&bt3_mac'
+  - '&bt4_win'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - ''
   - ''
   - ''
   - ''
   - BT CLR
-  - {t: BT, h: '0'}
-  - {t: BT, h: '1'}
-  - {t: BT, h: '2'}
-  - {t: BT, h: '3'}
-  - {t: BT, h: '4'}
   - ''
   - ''
   - ''
@@ -192,26 +332,15 @@ layers:
   - ''
   - ''
   - ''
-  - ''
-  - Reset
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - Reset
-  - {t: Boot, type: held}
+  - BT CLR
   - BT CLR ALL
   - ''
   - ''
+  - {t: ▽, type: trans}
+  - {t: Default Layer, h: toggle}
   - ''
   - ''
-  - '&studio_unlock'
   - ''
   - ''
+  - {type: held}
   - ''
-  - ''
-  - Boot
