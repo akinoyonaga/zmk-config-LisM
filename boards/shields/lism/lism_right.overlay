@@ -1,4 +1,14 @@
 #include "lism.dtsi"
+#include <input/processors.dtsi>
+
+&zip_temp_layer {
+    excluded-positions = <
+        16 // J
+        18 // K
+        12 // Shift
+        22 // Ctrl
+    >;
+};
 
 &transform_42keymap {
     col-offset = <5>;
