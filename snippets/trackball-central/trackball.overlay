@@ -15,6 +15,10 @@
     status = "okay";
 };
 
+&zip_temp_layer {
+    require-prior-idle-ms = <200>;
+};
+
 // セントラルのリスナーを有効化し、deviceを紐付け
 &central_listener {
     status = "okay";
