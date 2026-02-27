@@ -185,6 +185,15 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        atmark {
+            bindings = <&kp AT>;
+            key-positions = <9 8>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
