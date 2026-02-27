@@ -344,3 +344,6 @@ layers:
   - ''
   - {type: held}
   - ''
+combos:
+- p: [9, 8]
+  k: AT
