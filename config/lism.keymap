@@ -200,10 +200,10 @@
         default_layer {
             display-name = "Default Layer";
             bindings = <
-&kp Q                             &kp W         &kp E               &kp R  &kp T                                    &kp Y        &kp U  &kp I                    &kp O               &kp P
-&mt LEFT_ALT A                    &kp S         &mt LEFT_SHIFT D    &kp F  &kp G                                    &kp H        &kp J  &mt RIGHT_SHIFT K        &kp L               &mt RIGHT_ALT MINUS
-&kp Z                             &kp X         &mt LEFT_CONTROL C  &kp V  &kp B                                    &kp N        &kp M  &mt RIGHT_CONTROL COMMA  &kp DOT             &kp SLASH
-&mt_exit_AML_on_tap LCTRL ESCAPE  &kp LEFT_WIN  &kp AT              &none  &lt 3 TAB  &lt 2 SPACE    &kp BACKSPACE  &lt 2 ENTER  &none  &none                    &lt 7 SINGLE_QUOTE  &lt 6 LC(SPACE)
+&kp Q                             &kp W         &kp E                               &kp R  &kp T                                    &kp Y        &kp U  &kp I                    &kp O               &kp P
+&mt LEFT_ALT A                    &kp S         &mt_exit_AML_on_tap LEFT_SHIFT D    &kp F  &kp G                                    &kp H        &kp J  &mt RIGHT_SHIFT K        &kp L               &mt RIGHT_ALT MINUS
+&kp Z                             &kp X         &mt_exit_AML_on_tap LEFT_CONTROL C  &kp V  &kp B                                    &kp N        &kp M  &mt RIGHT_CONTROL COMMA  &kp DOT             &kp SLASH
+&mt_exit_AML_on_tap LCTRL ESCAPE  &kp LEFT_WIN  &kp AT                              &none  &lt 3 TAB  &lt 2 SPACE    &kp BACKSPACE  &lt 2 ENTER  &none  &none                    &lt 7 SINGLE_QUOTE  &lt 6 LC(SPACE)
             >;
 
             sensor-bindings = <&scroll_up_down>;
@@ -211,10 +211,10 @@
 
         mac_layer {
             bindings = <
-&kp Q                             &kp W         &kp E               &kp R  &kp T                                    &kp Y        &kp U  &kp I                    &mt LEFT_ALT O      &kp P
-&mt LEFT_COMMAND A                &kp S         &mt LEFT_SHIFT D    &kp F  &kp G                                    &kp H        &kp J  &mt RIGHT_SHIFT K        &kp L               &mt RIGHT_ALT MINUS
-&kp Z                             &kp X         &mt LEFT_COMMAND C  &kp V  &kp B                                    &kp N        &kp M  &mt RIGHT_COMMAND COMMA  &kp DOT             &kp SLASH
-&mt_exit_AML_on_tap LCTRL ESCAPE  &kp LEFT_WIN  &kp AT              &none  &lt 3 TAB  &lt 4 SPACE    &kp BACKSPACE  &lt 4 ENTER  &none  &none                    &lt 7 SINGLE_QUOTE  &lt 6 LC(SPACE)
+&kp Q                             &kp W         &kp E                             &kp R  &kp T                                    &kp Y        &kp U  &kp I                    &mt LEFT_ALT O      &kp P
+&mt LEFT_COMMAND A                &kp S         &mt_exit_AML_on_tap LEFT_SHIFT D  &kp F  &kp G                                    &kp H        &kp J  &mt RIGHT_SHIFT K        &kp L               &mt RIGHT_ALT MINUS
+&kp Z                             &kp X         &mt LEFT_COMMAND C                &kp V  &kp B                                    &kp N        &kp M  &mt RIGHT_COMMAND COMMA  &kp DOT             &kp SLASH
+&mt_exit_AML_on_tap LCTRL ESCAPE  &kp LEFT_WIN  &kp AT                            &none  &lt 3 TAB  &lt 4 SPACE    &kp BACKSPACE  &lt 4 ENTER  &none  &none                    &lt 7 SINGLE_QUOTE  &lt 6 LC(SPACE)
             >;
 
             sensor-bindings = <&scroll_up_down>;
