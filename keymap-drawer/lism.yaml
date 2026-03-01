@@ -13,7 +13,7 @@ layers:
   - P
   - {t: A, h: LEFT ALT}
   - S
-  - {t: '&kp_exit_AML D', h: LEFT SHIFT}
+  - {t: D, h: LEFT SHIFT}
   - F
   - G
   - H
@@ -23,7 +23,7 @@ layers:
   - {t: '-', h: RIGHT ALT}
   - Z
   - X
-  - {t: '&kp_exit_AML C', h: LEFT CONTROL}
+  - {t: C, h: LEFT CONTROL}
   - V
   - B
   - N
@@ -56,7 +56,7 @@ layers:
   - P
   - {t: A, h: LEFT COMMAND}
   - S
-  - {t: '&kp_exit_AML D', h: LEFT SHIFT}
+  - {t: D, h: LEFT SHIFT}
   - F
   - G
   - H
@@ -98,8 +98,8 @@ layers:
   - '&mkp MB5'
   - Ctl+PAGE DOWN
   - (
-  - {t: '&kp_exit_AML RIGHT_PARENTHESIS', h: LEFT SHIFT}
-  - '['
+  - )
+  - {t: '[', h: LEFT SHIFT}
   - ']'
   - '~'
   - PAGE UP
@@ -228,7 +228,7 @@ layers:
   - ''
   - ''
   - ''
-  - {t: '&kp_exit_AML D', h: LEFT SHIFT}
+  - ''
   - ''
   - ''
   - ''
