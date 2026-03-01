@@ -228,7 +228,7 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - {t: '&kp_exit_AML D', h: LEFT SHIFT}
   - ''
   - ''
   - ''
