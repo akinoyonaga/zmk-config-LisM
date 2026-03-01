@@ -13,7 +13,7 @@ layers:
   - P
   - {t: A, h: LEFT ALT}
   - S
-  - {t: D, h: LEFT SHIFT}
+  - {t: '&kp_exit_AML D', h: LEFT SHIFT}
   - F
   - G
   - H
@@ -23,7 +23,7 @@ layers:
   - {t: '-', h: RIGHT ALT}
   - Z
   - X
-  - {t: C, h: LEFT CONTROL}
+  - {t: '&kp_exit_AML C', h: LEFT CONTROL}
   - V
   - B
   - N
@@ -56,7 +56,7 @@ layers:
   - P
   - {t: A, h: LEFT COMMAND}
   - S
-  - {t: D, h: LEFT SHIFT}
+  - {t: '&kp_exit_AML D', h: LEFT SHIFT}
   - F
   - G
   - H
