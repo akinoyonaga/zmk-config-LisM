@@ -33,7 +33,7 @@ layers:
   - /
   - {t: '&kp_exit_AML ESCAPE', h: LCTRL}
   - LEFT WIN
-  - AT
+  - '['
   - ''
   - {t: TAB, h: '3'}
   - {t: SPACE, h: '2'}
@@ -41,7 +41,7 @@ layers:
   - {t: ENTER, h: '2'}
   - ''
   - ''
-  - {t: '''', h: '7'}
+  - {t: '&', h: '7'}
   - {t: Ctl+SPACE, h: '6'}
   mac:
   - Q
@@ -84,12 +84,12 @@ layers:
   - {t: ENTER, h: '4'}
   - ''
   - ''
-  - {t: '''', h: '7'}
+  - {t: '&', h: '7'}
   - {t: Ctl+SPACE, h: '6'}
   '2':
   - '!'
-  - DQT
-  - '`'
+  - AT
+  - '{'
   - F2
   - F5
   - Ctl+PAGE UP
@@ -97,21 +97,21 @@ layers:
   - '&mkp MB3'
   - '&mkp MB5'
   - Ctl+PAGE DOWN
+  - '*'
   - (
-  - )
-  - {t: '[', h: LEFT SHIFT}
-  - ']'
-  - '~'
+  - {t: ']', h: LEFT SHIFT}
+  - \
+  - +
   - PAGE UP
   - '&mkp LCLK'
   - UP ARROW
   - '&mkp RCLK'
   - HOME
   - INT YEN
-  - '|'
+  - '0x89'
   - {t: ;, h: LEFT CONTROL}
-  - ':'
-  - UNDERSCORE
+  - ''''
+  - Sft+0x87
   - PAGE DOWN
   - ←
   - DOWN ARROW
@@ -134,7 +134,7 @@ layers:
   - '#'
   - $
   - '%'
-  - '&'
+  - ^
   - /
   - '7'
   - '8'
@@ -159,7 +159,7 @@ layers:
   - '1'
   - '2'
   - '3'
-  - '='
+  - _
   - Ctl+F4
   - LEFT SHIFT
   - Sft+LEFT CONTROL
@@ -174,8 +174,8 @@ layers:
   - DEL
   '4':
   - '!'
-  - DQT
-  - '`'
+  - AT
+  - '{'
   - F2
   - F5
   - Ctl+PAGE UP
@@ -194,7 +194,7 @@ layers:
   - '&mkp RCLK'
   - HOME
   - INT YEN
-  - '|'
+  - '0x89'
   - {t: ;, h: LEFT CONTROL}
   - ':'
   - UNDERSCORE
