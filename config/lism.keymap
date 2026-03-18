@@ -229,7 +229,7 @@
 &kp Q                             &kp W         &kp E               &kp R  &kp T                                    &kp Y        &kp U  &kp I                    &kp O               &kp P
 &mt LEFT_ALT A                    &kp S         &mt LEFT_SHIFT D    &kp F  &kp G                                    &kp H        &kp J  &mt RIGHT_SHIFT K        &kp L               &mt RIGHT_ALT MINUS
 &kp Z                             &kp X         &mt LEFT_CONTROL C  &kp V  &kp B                                    &kp N        &kp M  &mt RIGHT_CONTROL COMMA  &kp DOT             &kp SLASH
-&mt_exit_AML_on_tap LCTRL ESCAPE  &kp LEFT_WIN  &kp AT              &none  &lt 3 TAB  &lt 2 SPACE    &kp BACKSPACE  &lt 2 ENTER  &none  &none                    &lt 7 SINGLE_QUOTE  &lt 6 LC(SPACE)
+&mt_exit_AML_on_tap LCTRL ESCAPE  &kp LEFT_WIN  &kp JP_AT           &none  &lt 3 TAB  &lt 2 SPACE    &kp BACKSPACE  &lt 2 ENTER  &none  &none                    &lt 7 JP_QUOTE      &lt 6 LC(SPACE)
             >;
 
             sensor-bindings = <&scroll_up_down>;
@@ -240,7 +240,7 @@
 &kp Q                             &kp W         &kp E               &kp R  &kp T                                    &kp Y        &kp U  &kp I                    &mt LEFT_ALT O      &kp P
 &mt LEFT_COMMAND A                &kp S         &mt LEFT_SHIFT D    &kp F  &kp G                                    &kp H        &kp J  &mt RIGHT_SHIFT K        &kp L               &mt RIGHT_ALT MINUS
 &kp Z                             &kp X         &mt LEFT_COMMAND C  &kp V  &kp B                                    &kp N        &kp M  &mt RIGHT_COMMAND COMMA  &kp DOT             &kp SLASH
-&mt_exit_AML_on_tap LCTRL ESCAPE  &kp LEFT_WIN  &kp AT              &none  &lt 3 TAB  &lt 4 SPACE    &kp BACKSPACE  &lt 4 ENTER  &none  &none                    &lt 7 SINGLE_QUOTE  &lt 6 LC(SPACE)
+&mt_exit_AML_on_tap LCTRL ESCAPE  &kp LEFT_WIN  &kp AT              &none  &lt 3 TAB  &lt 4 SPACE    &kp BACKSPACE  &lt 4 ENTER  &none  &none                    &lt 7 JP_QUOTE      &lt 6 LC(SPACE)
             >;
 
             sensor-bindings = <&scroll_up_down>;
@@ -248,9 +248,9 @@
 
         layer_2 {
             bindings = <
-&kp EXCL                                       &kp DQT                &kp GRAVE                    &kp F2             &kp F5                               &kp LC(PAGE_UP)  &mkp MB4   &mkp MB3        &mkp MB5   &kp LC(PAGE_DOWN)
-&kp LEFT_PARENTHESIS                           &kp RIGHT_PARENTHESIS  &mt LEFT_SHIFT LEFT_BRACKET  &kp RIGHT_BRACKET  &kp TILDE                            &kp PAGE_UP      &mkp LCLK  &kp UP_ARROW    &mkp RCLK  &kp HOME
-&kp INT_YEN                                    &kp PIPE               &mt LEFT_CONTROL SEMICOLON   &kp COLON          &kp UNDERSCORE                       &kp PAGE_DOWN    &kp LEFT   &kp DOWN_ARROW  &kp RIGHT  &kp END
+&kp EXCL                                       &kp JP_DQUOTE          &kp JP_BACKQUOTE             &kp F2             &kp F5                               &kp LC(PAGE_UP)  &mkp MB4   &mkp MB3        &mkp MB5   &kp LC(PAGE_DOWN)
+&kp JP_LPAREN                                  &kp JP_RPAREN          &mt LEFT_SHIFT JP_LBRACKET   &kp JP_RBRACKET    &kp JP_TILDE                         &kp PAGE_UP      &mkp LCLK  &kp UP_ARROW    &mkp RCLK  &kp HOME
+&kp INT_YEN                                    &kp JP_YEN             &mt LEFT_CONTROL SEMICOLON   &kp JP_COLON       &kp JP_UNDERSCORE                    &kp PAGE_DOWN    &kp LEFT   &kp DOWN_ARROW  &kp RIGHT  &kp END
 &mt_exit_AML_on_tap LEFT_CONTROL SINGLE_QUOTE  &kp LEFT_SHIFT         &kp LEFT_CONTROL             &none              &to 0           &mo 1    &kp DELETE  &kp K_APP        &none      &none           &none      &mo 6
             >;
 
@@ -259,9 +259,9 @@
 
         layer_3 {
             bindings = <
-&kp ESCAPE  &kp HASH        &kp DOLLAR            &kp PERCENT    &kp AMPERSAND                              &kp SLASH     &kp N7        &kp N8        &kp N9        &kp MINUS
+&kp ESCAPE  &kp HASH        &kp DOLLAR            &kp PERCENT    &kp JP_AMPERSAND                           &kp SLASH     &kp N7        &kp N8        &kp N9        &kp MINUS
 &kp F7      &kp F8          &kp F9                &kp F10        &kp SINGLE_QUOTE                           &kp ASTERISK  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp PLUS
-&kp LA(F4)  &none           &kp LC(SEMICOLON)     &kp LC(COLON)  &kp UNDERSCORE                             &kp F4        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp EQUAL
+&kp LA(F4)  &none           &kp LC(SEMICOLON)     &kp LC(COLON)  &kp UNDERSCORE                             &kp F4        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp JP_EQUAL
 &kp LC(F4)  &kp LEFT_SHIFT  &kp LS(LEFT_CONTROL)  &none          &to 0             &tog 3    &kp BACKSPACE  &kp N0        &none         &none         &none         &kp DELETE
             >;
 
@@ -270,9 +270,9 @@
 
         layer_4 {
             bindings = <
-&kp EXCL                                       &kp DQT                                           &kp GRAVE                   &kp F2             &kp F5                               &kp LC(PAGE_UP)  &kp LG(LEFT_ARROW)  &mkp MB3        &kp LG(C_AL_FILE_BROWSER)  &kp LC(PAGE_DOWN)
+&kp EXCL                                       &kp JP_DQUOTE                                     &kp JP_BACKQUOTE            &kp F2             &kp F5                               &kp LC(PAGE_UP)  &kp LG(LEFT_ARROW)  &mkp MB3        &kp LG(C_AL_FILE_BROWSER)  &kp LC(PAGE_DOWN)
 &kp LEFT_PARENTHESIS                           &mt_exit_AML_on_tap LEFT_SHIFT RIGHT_PARENTHESIS  &kp LEFT_BRACKET            &kp RIGHT_BRACKET  &kp TILDE                            &kp PAGE_UP      &mkp LCLK           &kp UP_ARROW    &mkp RCLK                  &kp HOME
-&kp INT_YEN                                    &kp PIPE                                          &mt LEFT_CONTROL SEMICOLON  &kp COLON          &kp UNDERSCORE                       &kp PAGE_DOWN    &kp LEFT            &kp DOWN_ARROW  &kp RIGHT                  &kp END
+&kp INT_YEN                                    &kp JP_YEN                                        &mt LEFT_CONTROL SEMICOLON  &kp COLON          &kp UNDERSCORE                       &kp PAGE_DOWN    &kp LEFT            &kp DOWN_ARROW  &kp RIGHT                  &kp END
 &mt_exit_AML_on_tap LEFT_CONTROL SINGLE_QUOTE  &kp LEFT_SHIFT                                    &kp LEFT_CONTROL            &none              &to 0           &mo 1    &kp DELETE  &kp K_APP        &none               &none           &none                      &mo 6
             >;
 
