@@ -1,0 +1,4 @@
+name: fingerprint-left
+append:
+  EXTRA_DTC_OVERLAY_FILE: fingerprint-left.overlay
+  EXTRA_CONF_FILE: fingerprint-left.conf
