@@ -22,7 +22,7 @@ manifest:
       revision: main
     - name: zmk-rgbled-widget
       remote: caksoylar
-      revision: v0.3-branch
+      revision: v0.3
     - name: zmk-feature-charge-indicator
       remote: 4mplelab
       revision: main
