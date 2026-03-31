@@ -150,6 +150,11 @@
     };
 
     behaviors {
+        touchpass: touchpass {
+            compatible = "zmk,behavior-touchpass";
+            #binding-cells = <0>;
+        };
+
         encoder_msc: sensor_rotate_msc {
             compatible = "zmk,behavior-sensor-rotate-var";
             #sensor-binding-cells = <2>;
