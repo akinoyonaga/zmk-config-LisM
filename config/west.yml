@@ -10,6 +10,8 @@ manifest:
       url-base: https://github.com/4mplelab
     - name: prospector
       url-base: https://github.com/t-ogura
+    - name: TouchPass
+      url-base: https://github.com/razilyis
   projects:
     - name: zmk
       remote: zmkfirmware
@@ -28,5 +30,8 @@ manifest:
       remote: prospector
       revision: v1.0.0
       path: modules/prospector-zmk-module
+    - name: zmk-module-Fingerprint
+      remote: TouchPass
+      revision: main
   self:
     path: config
