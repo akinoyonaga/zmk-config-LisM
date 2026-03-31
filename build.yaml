@@ -49,7 +49,7 @@ include:
    - board: seeeduino_xiao_ble
      shield: lism_left rgbled_adapter
      snippet: "studio-rpc-usb-uart non-trackball-central fingerprint-left"
-     artifact-name: lism_left_central_trackball
+     artifact-name: lism_left_central_non_trackball_fingerprint_studio
      cmake-args: -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=y
   
   # - board: seeeduino_xiao_ble
