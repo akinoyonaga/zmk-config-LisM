@@ -10,7 +10,6 @@ manifest:
       url-base: https://github.com/4mplelab
     - name: prospector
       url-base: https://github.com/t-ogura
-      remotes:
     - name: kot149
       url-base: https://github.com/kot149
   projects:
