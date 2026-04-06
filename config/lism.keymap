@@ -1,3 +1,4 @@
+#include <layout_shift.dtsi>
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 100
 
 #include <input/processors.dtsi>
