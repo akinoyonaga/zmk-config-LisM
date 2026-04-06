@@ -343,7 +343,7 @@ layers:
   - ''
   - ''
   - {type: held}
-  - ''
+  - '&tog_ls'
 combos:
 - p: [9, 8]
   k: AT
