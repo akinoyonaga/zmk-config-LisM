@@ -50,6 +50,10 @@
 
 &lt { quick-tap-ms = <300>; };
 
+&sensor_rotation {
+    rotation-angle = <150>;
+};
+
 / {
     macros {
         emoji: emoji_macro {
