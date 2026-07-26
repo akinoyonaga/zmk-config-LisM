@@ -10,6 +10,13 @@
         zmk,physical-layout = &physical_42key_layout;
     };
 
+    aml_threshold: aml_threshold {
+        compatible = "zmk,input-processor-temp-layer-threshold";
+        #input-processor-cells = <2>;
+        threshold = <30>;
+        reset-timeout-ms = <200>;
+    };
+
     physical_42key_layout: physical_42key_layout {
         compatible = "zmk,physical-layout";
         display-name = "42-Key Layout";
