@@ -46,7 +46,7 @@
     quick-tap-ms = <0>;
 };
 
-&mkp_input_listener { input-processors = <&zip_temp_layer 5 10000>; };
+&mkp_input_listener { input-processors = <&aml_threshold 5 10000>; };
 
 &lt { quick-tap-ms = <300>; };
 
@@ -55,6 +55,13 @@
 };
 
 / {
+    aml_threshold: aml_threshold {
+        compatible = "zmk,input-processor-temp-layer-threshold";
+        #input-processor-cells = <2>;
+        threshold = <30>;
+        reset-timeout-ms = <200>;
+    };
+
     macros {
         emoji: emoji_macro {
             compatible = "zmk,behavior-macro";
