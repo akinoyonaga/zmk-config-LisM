@@ -79,10 +79,10 @@ static void update_layer_state(struct temp_layer_threshold_state *state, bool ac
 
     state->is_active = activate;
     if (activate) {
-        zmk_keymap_layer_activate(state->layer, false);
+        zmk_keymap_layer_activate(state->layer);
         LOG_DBG("Layer %d activated after movement threshold", state->layer);
     } else {
-        zmk_keymap_layer_deactivate(state->layer, false);
+        zmk_keymap_layer_deactivate(state->layer);
         state->accumulated_movement = 0;
         LOG_DBG("Layer %d deactivated", state->layer);
     }
